@@ -162,5 +162,15 @@ class CreatePlaylist:
                 'Authorization': 'Bearer {}'.format(self.spotify_token)
             }
         )
+        # check for valid response status
+        if response.status_code != 200:
+            raise ResponseException(response.status_code)
 
+        response_json = response.json()
+        return response_json
+
+
+if __name__ == '__main__':
+    cp = CreatePlaylist()
+    cp.add_song_to_playlist()
 
