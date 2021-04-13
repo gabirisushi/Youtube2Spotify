@@ -1,7 +1,9 @@
+#future Pink Programming Python Course
+
 Automating Spotify with Python
 
 THE PLAN
-All liked videos on Youtube should be automated generated on Spotify as a song.
+All liked videos on Youtube should be automatically generated on Spotify as a song.
 
 1) How we do it now, manually?
 a) You need to be logged in Spotify and Youtube
@@ -9,7 +11,6 @@ b) You need to check your Youtube likes
 c) enter your Spotify account and create a playlist
 
 2) Map steps with Python functions
-
 
 WHICH TOOLS ARE GOING TO USE?
 - Youtube Data API https://developers.google.com/youtube/v3
